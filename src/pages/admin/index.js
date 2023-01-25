@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
-const ProductDetails = props => {
+const AdminIndex = props => {
     const router = useRouter();
 
     useEffect(() => {
-        router.push("/product");
+        router.push("/admin/user");
     }, [])
 
     return null;
 }
 
-export default ProductDetails;
+export default AdminIndex;
